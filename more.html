@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="Assets/Css/style.css">
+    <title>More | OneCal</title>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar navbar-dark navbar-expand-md">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img class="img-fluid logo" src="Assets/Images/logo-white.svg" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="wellcome.html">Wellcome</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="seasonal-favorites.html">Seasonal Favorites</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="more.html">More</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <div class="text-white">
+                            <i class="bi bi-search" id="searchIcon"></i>
+                        </div>
+                        <div id="searchInput" style="display: none;">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                        </div>
+                        <div class="bahasa mx-5 dropdown">
+                            <a class="text-decoration-none text-white" href="#" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                Bahasa <i class="bi bi-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                                <li><a class="dropdown-item" href="#"><img class="flag" src="Assets/Images/id.png" alt=""> Bahasa - (id) <img class="check-bahasa my-auto" src="Assets/Images/check.svg" alt=""></a></li>
+                                <li><a class="dropdown-item" href="#"><img class="flag" src="Assets/Images/us.png" alt=""> English - (us)</a></li>
+                            </ul>
+                        </div>
+
+                        <a href="#" class="keranjang text-decoration-none position-relative me-2">
+                            <img src="Assets/Images/cart-icon.svg" alt="Keranjang">
+                            <span class="badge position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" id="cartQuantity">3</span>
+                        </a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <div class="more-hero position-relative">
+            <img class="bg-more img-fluid" src="Assets/Images/more-bg-hero.svg" alt="Images">
+            <div class="cover-text-more">
+                <h1 class="text-more">Blog & Artikel</h1>
+                <div class="garis-more-title"></div>
+            </div>
+        </div>
+
+        <div class="section-1-more">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 mb-5">
+                        <div class="card more-card">
+                            <img class="card-img-top" src="Assets/Images/card-1-more.svg" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-title">Sumber: Molecules (MDPI)</p>
+                                <h5 class="card-text">Is Molasses Healthy? What to Know About This Sweetener</h5>
+                                <a href="#" class="btn-card-more">Read More</a>
+                            </div>
+                        </div>
+                        <div class="text-center mt-4">
+                            <a href="https://www.verywellhealth.com/molasses-8640108" target="_blank" class="text-danger">https://www.verywellhealth.com/molasses-8640108</a>
+                        </div>
+                    </div>
+                    <div class="col-4 mb-5">
+                        <div class="card more-card">
+                            <img class="card-img-top" src="Assets/Images/card-2-more.svg" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-title">Sumber: Verywell Health</p>
+                                <h5 class="card-text">Molasses a natural sweetener with rich flavor and health benefits</h5>
+                                <a href="#" class="btn-card-more">Read More</a>
+                            </div>
+                        </div>
+                        <div class="text-center mt-4">
+                            <a href="https://olivenflower.gr/en/molasses-a-natural-sweetener-health-benefits/" target="_blank" class="text-danger">https://olivenflower.gr/en/molasses-a-natural-sweetener-health-benefits/</a>
+                        </div>
+                    </div>
+                    <div class="col-4 mb-5">
+                        <div class="card more-card">
+                            <img class="card-img-top" src="Assets/Images/card-3-more.svg" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-title">Sumber: healthy.co.nz (Blog kesehatan)</p>
+                                <h5 class="card-text">The Sweet Benefits of Organic Molasses: Nature’s Nutrient-Rich Sweetener</h5>
+                                <a href="#" class="btn-card-more">Read More</a>
+                            </div>
+                        </div>
+                        <div class="text-center mt-4">
+                            <a href="https://healthy.co.nz/blogs/healthy-blog/the-sweet-benefits-of-organic-molasses-nature-s-nutrient-rich-sweetener" target="_blank" class="text-danger">https://healthy.co.nz/blogs/healthy-blog/the-sweet-benefits-of-organic-molasses-nature-s-nutrient-rich-sweetener</a>
+                        </div>
+                    </div>
+                    <div class="col-4 mb-5">
+                        <div class="card more-card">
+                            <img class="card-img-top" src="Assets/Images/card-4-more.svg" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-title">Sumber: Alodokter (ditinjau oleh: dr. Kevin Adrian)</p>
+                                <h5 class="card-text">Jangan Dilewatkan, Ini 6 Manfaat Air Tebu untuk Kesehatan</h5>
+                                <a href="#" class="btn-card-more">Read More</a>
+                            </div>
+                        </div>
+                        <div class="text-center mt-4">
+                            <a href="https://www.alodokter.com/jangan-dilewatkan-ini-6-manfaat-air-tebu-untuk-kesehatan" target="_blank" class="text-danger">https://www.alodokter.com/jangan-dilewatkan-ini-6-manfaat-air-tebu-untuk-kesehatan</a>
+                        </div>
+                    </div>
+                    <div class="col-4 mb-5">
+                        <div class="card more-card">
+                            <img class="card-img-top" src="Assets/Images/card-5-more.svg" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-title">Sumber: Kompas.tv.</p>
+                                <h5 class="card-text">6 Manfaat Air Tebu untuk Kesehatan, Cegah Kanker hingga Penyakit Kuning</h5>
+                                <a href="#" class="btn-card-more">Read More</a>
+                            </div>
+                        </div>
+                        <div class="text-center mt-4">
+                            <a href="https://www.kompas.tv/lifestyle/517985/6-manfaat-air-tebu-untuk-kesehatan-cegah-kanker-hingga-penyakit-kuning?page=all" target="_blank" class="text-danger">https://www.kompas.tv/lifestyle/517985/6-manfaat-air-tebu-untuk-kesehatan-cegah-kanker-hingga-penyakit-kuning?page=all</a>
+                        </div>
+                    </div>
+                    <div class="col-4 mb-5">
+                        <div class="card more-card">
+                            <img class="card-img-top" src="Assets/Images/card-6-more.svg" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-title">Sumber: Tempo.co</p>
+                                <h5 class="card-text">Manis Rasanya, Air Tebu Bermanfaat untuk Detoksifikasi dan Cegah Jerawat</h5>
+                                <a href="#" class="btn-card-more">Read More</a>
+                            </div>
+                        </div>
+                        <div class="text-center mt-4">
+                            <a href="https://www.tempo.co/arsip/manis-rasanya-air-tebu-bermanfaat-untuk-detoksifikasi-dan-cegah-jerawat--546602" target="_blank" class="text-danger">https://www.tempo.co/arsip/manis-rasanya-air-tebu-bermanfaat-untuk-detoksifikasi-dan-cegah-jerawat--546602</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cover-two-btn">
+                <button class="btn-well-jelajah rounded-pill">Jelajahi Produk</button>
+                <button class="btn-well-video rounded-pill">Tonton Video Kami</button>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="row text-center text-md-start">
+                    <div class="col-xl-2 col-12 mb-3 mb-xl-0 d-flex align-items-center justify-content-center justify-content-xl-start">
+                        <img src="Assets/Images/logo-white.svg" alt="Logo">
+                    </div>
+                    <div class="col-xl-2 col-md-3 col-sm-4 text-center text-xl-start">
+                        <li>
+                            <a href="#">About</a>
+                            <a href="#">Products</a>
+                            <a href="#">Highlights</a>
+                        </li>
+                    </div>
+                    <div class="col-xl-2 col-md-3 col-sm-4 text-center text-xl-start">
+                        <li>
+                            <a href="#">Where to Buy</a>
+                            <a href="#">FAQ</a>
+                            <a href="#">Career</a>
+                        </li>
+                    </div>
+                    <div class="col-xl-2 col-md-3 col-sm-4 text-center text-xl-start">
+                        <li>
+                            <a href="#">Contact</a>
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Term & Conditions</a>
+                        </li>
+                    </div>
+                    <div class="col-xl-4 col-md-3 input-email">
+                        <div class="mt-auto">
+                            <p class="text-start text-white">Sign Up to Our E-mail Newsletter</p>
+                            <div>
+                                <input type="email" placeholder="Your E-mail Address">
+                                <button class="mt-2 mt-xl-0">Sign Up</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="Assets/Js/search.js"></script>
+</body>
+</html>
