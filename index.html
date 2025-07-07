@@ -135,16 +135,16 @@
                 </div>
                 <div class="row item-circle-3">
                     <div class="col-md-6 col-lg-3">
-                        <img class="img-fluid" src="Assets/Images/circle-1.svg" alt="images">
+                        <img class="img-fluid index-circle mb-3" src="Assets/Images/circle-1.svg" alt="images">
                     </div>
                     <div class="col-md-6 col-lg-3">
-                        <img class="img-fluid" src="Assets/Images/circle-2.svg" alt="images">
+                        <img class="img-fluid index-circle mb-3" src="Assets/Images/circle-2.svg" alt="images">
                     </div>
                     <div class="col-md-6 col-lg-3">
-                        <img class="img-fluid" src="Assets/Images/circle-3.svg" alt="images">
+                        <img class="img-fluid index-circle mb-3" src="Assets/Images/circle-3.svg" alt="images">
                     </div>
                     <div class="col-md-6 col-lg-3">
-                        <img class="img-fluid" src="Assets/Images/circle-4.svg" alt="images">
+                        <img class="img-fluid index-circle mb-3" src="Assets/Images/circle-4.svg" alt="images">
                     </div>
                 </div>
                 <div class="desc-3">
@@ -164,7 +164,7 @@
                     <div class="hr-sec-4"></div>
                 </div>
                 <div class="row content-4">
-                    <div class="col-md-6 col-lg-3">
+                    <div class="col-6 col-lg-3 mb-3 content-4-item">
                         <img class="img-fluid" src="Assets/Images/top-picks-1.svg" alt="images">
                         <div class="content-4-title">
                             <p class="merk">One Cak Tetes Gula Cair 5 ml</p>
@@ -172,7 +172,7 @@
                             <button class="add-to-cart">Add to cart</button>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3">
+                    <div class="col-6 col-lg-3 mb-3 content-4-item">
                         <img class="img-fluid" src="Assets/Images/top-picks-2.svg" alt="images">
                         <div class="content-4-title">
                             <p class="merk">One Cak Tetes Gula Cair 15 ml</p>
@@ -180,7 +180,7 @@
                             <button class="add-to-cart">Add to cart</button>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3">
+                    <div class="col-6 col-lg-3 mb-3 content-4-item">
                         <img class="img-fluid" src="Assets/Images/top-picks-3.svg" alt="images">
                         <div class="content-4-title">
                             <p class="merk">One Cak Tetes Gula Cair 5 ml</p>
@@ -188,7 +188,7 @@
                             <button class="add-to-cart">Add to cart</button>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3">
+                    <div class="col-6 col-lg-3 mb-3 content-4-item">
                         <img class="img-fluid" src="Assets/Images/top-picks-4.svg" alt="images">
                         <div class="content-4-title">
                             <p class="merk">One Cak Tetes Gula Cair 15 ml</p>
@@ -218,13 +218,13 @@
                     <div class="hr-sec-5"></div>
                 </div>
                 <div class="row contain-testi">
-                    <div class="col-md-4 cover-testi">
+                    <div class="col-md-6 col-lg-4 cover-testi">
                         <img class="img-fluid" src="Assets/Images/testi/1.png" alt="Testi">
                     </div>
-                    <div class="col-md-4 cover-testi">
+                    <div class="col-md-6 col-lg-4 cover-testi">
                         <img class="img-fluid" src="Assets/Images/testi/1.png" alt="Testi">
                     </div>
-                    <div class="col-md-4 cover-testi">
+                    <div class="col-md-6 col-lg-4 cover-testi">
                         <img class="img-fluid" src="Assets/Images/testi/1.png" alt="Testi">
                     </div>
                 </div>
@@ -366,15 +366,27 @@
     <script src="Assets/Js/search.js"></script>
     <script>
     const swiper = new Swiper('.mySwiper', {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        loop: true,
-        navigation: {
+    slidesPerView: 1, // Default for desktop
+    spaceBetween: 30,
+    loop: true,
+    navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
+    },
+    speed: 600,
+    breakpoints: {
+        // When window width is 1024px or less (Tablet)
+        1024: {
+            slidesPerView: 3,
         },
-        speed: 600,
-    });
+        // When window width is 768px or less (Mobile)
+        768: {
+            slidesPerView: 2,
+        },
+    },
+});
+
+
     </script>
 
 </body>

@@ -862,12 +862,16 @@ footer a:hover{
 
 /* Xl */
 @media screen and (min-width: 1200px){
-    /* Footer */
     
+    .title-sec-3 h1, .title-sec-4 h1, .title-sec-5 h1, .title-sec-7 h1{
+        font-size: 30px;
+    }
 }
 
 /* LG */
 @media screen and (min-width: 992px) and (max-width: 1199px){
+    
+    
     /* Footer */
     footer{
         background: #3A795E;
@@ -890,11 +894,22 @@ footer a:hover{
         padding: 15px 0;
         font-size: 20px;
     }
+
+    /* Index */
+    .title-sec-3 h1, .title-sec-4 h1, .title-sec-5 h1, .title-sec-7 h1{
+        font-size: 30px;
+    }
 }
 
 /* MD */
 @media screen and (min-width: 768px) and (max-width: 991px){
-    
+    .nav-item{
+        font-size: 16px;
+    }
+
+    #dropdownMenuButton{
+        font-size: 16px;
+    }
     
     /* Footer */
     .input-email{
@@ -916,6 +931,62 @@ footer a:hover{
     .btn-well-video{
         padding: 12px 0;
         font-size: 15px;
+    }
+
+    /* INDEX */
+    .solusi{
+        font-size: 50px;
+    }
+    .caption-1 .tanpa{
+        font-size: 40px;
+    }
+    .caption-1 h2{
+        font-size: 30px;
+    }
+    .caption-1 p{
+        font-size: 20px;
+    }
+    .caption-2 h1{
+        font-size: 30px;
+    }
+    .btn-home-learn-more{
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+    .caption-2 h2{
+        font-size: 25px;
+    }
+    .caption-2 img{
+        width: 400px;
+    }
+    .title-sec-3 h1, .title-sec-4 h1, .title-sec-5 h1, .title-sec-7 h1{
+        font-size: 30px;
+    }
+
+    .desc p, .desc-3 p, .desc-8 p{
+        font-size: 20px !important;
+    }
+
+    .bg-4{
+        height: 1300px;
+    }
+    .special-text{
+        font-size: 40px !important;
+    }
+    .cover-btn-claim{
+        margin-top: 50px;
+    }
+    .btn-claim{
+        font-size: 25px;
+        padding: 5px 30px;
+        width: 700px;
+        border: 8px solid #FFFFFF;
+    }
+    .item-circle-3{
+        text-align: center;
+    }
+    .item-circle-3 img{
+        width: 250px;
     }
 }
 
@@ -957,6 +1028,55 @@ footer a:hover{
         margin-top: 10px;
         width: 30%;
     }
+
+    .title-sec-3 h1, .title-sec-4 h1, .title-sec-5 h1, .title-sec-7 h1{
+        font-size: 25px;
+    }
+
+    .item-circle-3{
+        text-align: center;
+    }
+    .item-circle-3 img{
+        width: 250px;
+    }
+    .content-4{
+        justify-content: center;
+    }
+    .content-4-item{
+        width: 300px;
+    }
+
+    .bg-4{
+        height: 2200px;
+    }
+    .add-to-cart{
+        font-size: 18px;
+        padding: 10px 20px;
+        width: 100%;
+    }
+    .special-text{
+        font-size: 20px !important;
+        margin-top: 0px;
+    }
+    .cover-btn-claim{
+        margin-top: 50px;
+    }
+    .btn-claim{
+        font-size: 17px;
+        padding: 2px 10px;
+        width: 700px;
+        border: 5px solid #FFFFFF;
+        height: 60px;
+    }
+    .desc p, .desc-3 p, .desc-8 p{
+        font-size: 20px !important;
+    }
+    .section-2{
+        padding: 50px 0;
+    }
+    .title h1{
+        font-size: 30px;
+    }
 }
 
 /* XS */
@@ -976,5 +1096,12 @@ footer a:hover{
         font-size: 15px;
         margin-top: 10px;
         width: 70%;
+    }
+    .title-sec-3 h1, .title-sec-4 h1, .title-sec-5 h1, .title-sec-7 h1{
+        font-size: 20px;
+    }
+
+    .bg-4{
+        height: 1900px;
     }
 }
