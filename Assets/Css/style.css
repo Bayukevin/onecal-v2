@@ -861,10 +861,22 @@ footer a:hover{
 }
 
 /* Xl */
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) and (max-width: 1919px){
     
     .title-sec-3 h1, .title-sec-4 h1, .title-sec-5 h1, .title-sec-7 h1{
         font-size: 30px;
+    }
+
+    /* Seasonal Page */
+    .cover-text-hero-seasonal h1{
+        font-size: 70px;
+    }
+    .cover-text-hero-seasonal{
+        top: 25%;
+        left: 40%;
+    }
+    .images-test img{
+        width: 600px;
     }
 }
 
@@ -898,6 +910,41 @@ footer a:hover{
     /* Index */
     .title-sec-3 h1, .title-sec-4 h1, .title-sec-5 h1, .title-sec-7 h1{
         font-size: 30px;
+    }
+
+    /* Seasonal Page */
+    .cover-text-hero-seasonal{
+        top: 25%;
+        left: 40%;
+    }
+    .cover-text-hero-seasonal h1{
+        font-size: 70px;
+    }
+    .cover-seasonal-text h1{
+        color: #49534F;
+        font-size: 55px;
+        font-weight: 500;
+        font-family: 'Outfit', sans-serif;
+        text-align: center;
+    }
+
+    .cover-seasonal-text p{
+        color: #49534F;
+        font-size: 26px;
+        font-weight: 300;
+        font-family: 'Outfit', sans-serif;
+        text-align: justify;
+    }
+    .product-seasonal img{
+        max-width: 400px;
+    }
+
+    .cover-desc-seasonal, .product-seasonal{
+        margin-bottom: 50px;
+    }
+    
+    .images-test img{
+        width: 500px;
     }
 }
 
@@ -988,6 +1035,38 @@ footer a:hover{
     .item-circle-3 img{
         width: 250px;
     }
+
+    /* Seasonal Page */
+    .cover-text-hero-seasonal{
+        top: 22%;
+        left: 40%;
+    }
+    .cover-text-hero-seasonal h1{
+        font-size: 70px;
+    }
+    .cover-seasonal-text h1{
+        font-size: 45px;
+    }
+    .cover-seasonal-text p{
+        font-size: 20px;
+    }
+    .cover-desc-seasonal, .product-seasonal{
+        margin-bottom: 50px;
+    }
+    .product-seasonal img{
+        max-width: 400px;
+    }
+    .cover-desc-seasonal p{
+        font-size: 20px;;
+    }
+
+    /* More Pages */
+    .text-more{
+        font-size: 70px;
+    }
+    .images-test img{
+        width: 400px;
+    }
 }
 
 /* SM */
@@ -1077,6 +1156,79 @@ footer a:hover{
     .title h1{
         font-size: 30px;
     }
+
+    /* Wellcome Page */
+
+    .text-wellcome{
+        font-size: 60px;
+    }
+
+    .section-1-wellcome p{
+        font-size: 20px;
+    }
+
+    /* Seasonal Page */
+    .cover-text-hero-seasonal{
+        top: 15%;
+        left: 40%;
+    }
+    .cover-text-hero-seasonal h1{
+        font-size: 60px;
+    }
+    .garis-seasonal-hero{
+        width: 100px;
+    }
+    .cover-seasonal-text h1{
+        font-size: 45px;
+    }
+    .cover-seasonal-text p{
+        font-size: 20px;
+    }
+    .cover-desc-seasonal, .product-seasonal{
+        margin-bottom: 50px;
+    }
+    .product-seasonal img{
+        max-width: 400px;
+    }
+    .cover-desc-seasonal p{
+        font-size: 20px;;
+    }
+    .last-text-seasonal{
+        font-size: 20px;
+    }
+    /* More Pages */
+    .text-more{
+        font-size: 60px;
+    }
+
+    /* Read More */
+    .read-more-first-content h1, .read-more-second-content h1{
+        font-size: 30px;
+    }
+    .read-more-first-content p, .read-more-second-content ul li, .read-more-third-content p{
+        font-size: 20px;
+    }
+    .section-1-read-more .container{
+        padding: 50px 20px;
+    }
+
+    /* See More */
+    .first-content-see-more h1, .second-content-see-more h2{
+        font-size: 30px;
+    }
+    .first-content-see-more p, .second-content-see-more p{
+        font-size: 20px;
+    }
+    .images-test img{
+        width: 400px;
+    }
+    .second-content-see-more{
+        padding-bottom: 150px;
+    }
+    .section-1-see-more{
+        padding: 30px 10px 0 10px;
+        position: relative;
+    }
 }
 
 /* XS */
@@ -1103,5 +1255,45 @@ footer a:hover{
 
     .bg-4{
         height: 1900px;
+    }
+
+    /* Wellcome Page */
+
+    .text-wellcome{
+        font-size: 40px;
+    }
+    .section-1-wellcome{
+        padding: 20px 0 0 0;
+    }
+    .section-1-wellcome p{
+        font-size: 16px;
+    }
+
+    /* Seasonal Page */
+    .cover-text-hero-seasonal{
+        top: 10%;
+        left: 40%;
+    }
+    .cover-text-hero-seasonal h1{
+        font-size: 25px;
+    }
+    .garis-seasonal-hero{
+        display: none;
+    }
+    .product-seasonal img{
+        width: 100%;
+    }
+    .text-more{
+        font-size: 40px;
+    }
+
+    .first-content-see-more h1, .second-content-see-more h2{
+        font-size: 30px;
+    }
+    .first-content-see-more p, .second-content-see-more p{
+        font-size: 20px;
+    }
+    .first-content-see-more ul li{
+        font-size: 18px;
     }
 }
