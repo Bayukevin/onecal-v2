@@ -1067,6 +1067,15 @@ footer a:hover{
     .images-test img{
         width: 400px;
     }
+    .text-content-learn-more h2{
+        font-size: 30px;
+    }
+    .text-content-learn-more ul li{
+        font-size: 20px;
+    }
+    .text-produk-learn-more p{
+        font-size: 20px;
+    }
 }
 
 /* SM */
@@ -1228,6 +1237,17 @@ footer a:hover{
     .section-1-see-more{
         padding: 30px 10px 0 10px;
         position: relative;
+    }
+
+    .text-content-learn-more h2{
+        font-size: 30px;
+    }
+    .text-content-learn-more ul li{
+        font-size: 20px;
+    }
+    .text-produk-learn-more p{
+        font-size: 20px;
+        margin-top: 20px;
     }
 }
 
