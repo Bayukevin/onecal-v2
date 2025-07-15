@@ -888,6 +888,16 @@ footer a:hover{
     .images-test img{
         width: 600px;
     }
+
+    .garis-wellcome{
+        position: absolute;
+        z-index: 2;
+        top: 70%;
+        left: 27%;
+        width: 200px;
+        border-bottom: 2px solid #FFFFFF;
+        margin-left: auto;
+    }
 }
 
 /* LG */
@@ -955,6 +965,16 @@ footer a:hover{
     
     .images-test img{
         width: 500px;
+    }
+
+    .garis-wellcome{
+        position: absolute;
+        z-index: 2;
+        top: 75%;
+        left: 32%;
+        width: 200px;
+        border-bottom: 2px solid #FFFFFF;
+        margin-left: auto;
     }
 }
 
@@ -1085,6 +1105,16 @@ footer a:hover{
     }
     .text-produk-learn-more p{
         font-size: 20px;
+    }
+
+    .garis-wellcome{
+        position: absolute;
+        z-index: 2;
+        top: 80%;
+        left: 38%;
+        width: 200px;
+        border-bottom: 2px solid #FFFFFF;
+        margin-left: auto;
     }
 }
 
@@ -1259,6 +1289,16 @@ footer a:hover{
         font-size: 20px;
         margin-top: 20px;
     }
+
+    .garis-wellcome{
+        position: absolute;
+        z-index: 2;
+        top: 75%;
+        left: 38%;
+        width: 100px;
+        border-bottom: 2px solid #FFFFFF;
+        margin-left: auto;
+    }
 }
 
 /* XS */
@@ -1325,5 +1365,9 @@ footer a:hover{
     }
     .first-content-see-more ul li{
         font-size: 18px;
+    }
+
+    .garis-wellcome{
+        display: none;
     }
 }
