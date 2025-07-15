@@ -49,8 +49,8 @@
                                 Bahasa <i class="bi bi-chevron-down"></i>
                             </a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
-                                <li><a class="dropdown-item" href="#"><img class="flag" src="Assets/Images/id.png" alt=""> Bahasa - (id) <img class="check-bahasa my-auto" src="Assets/Images/check.svg" alt=""></a></li>
-                                <li><a class="dropdown-item" href="#"><img class="flag" src="Assets/Images/us.png" alt=""> English - (us)</a></li>
+                                <li><a class="dropdown-item" href="#" id="setIndonesian"><img class="flag" src="Assets/Images/id.png" alt=""> Bahasa - (id) <img class="check-bahasa my-auto" src="Assets/Images/check.svg" alt=""></a></li>
+                                <li><a class="dropdown-item" href="#" id="setEnglish"><img class="flag" src="Assets/Images/us.png" alt=""> English - (us) <img class="check-bahasa my-auto d-none" src="Assets/Images/check.svg" alt=""></a></li>
                             </ul>
                         </div>
 
@@ -74,20 +74,26 @@
         <div class="section-1-seasonal">
             <div class="container">
                 <div class="cover-seasonal-text">
-                    <h1>Manis Segar Sepanjang Tahun bersama One Cal!</h1>
-                    <p>Nikmati manis alami One Cal dalam kreasi minuman dan hidangan favorit musiman Anda. Di Indonesia, setiap musim membawa inspirasi baru untuk kesegaran dan kehangatan. One Cal hadir untuk melengkapi momen istimewa Anda tanpa rasa bersalah.</p>
+                    <h1 class="id">Manis Segar Sepanjang Tahun bersama One Cal!</h1>
+                    <h1 class="en text-start">Enjoy Sweet and Fresh Moments Every Season with One Cal !</h1>
+                    <p class="id">Nikmati manis alami One Cal dalam kreasi minuman dan hidangan favorit musiman Anda. Di Indonesia, setiap musim membawa inspirasi baru untuk kesegaran dan kehangatan. One Cal hadir untuk melengkapi momen istimewa Anda tanpa rasa bersalah.</p>
+                    <p class="en">Enjoy the natural sweetness of One Cal in your favorite seasonal drinks and dishes. In Indonesia, every season brings new inspiration for freshness and warmth. One Cal is here to complete your special moments—guilt-free.</p>
                 </div>
                 <div class="row">
                     <div class="col-lg-6 col-12 product-seasonal d-flex">
                         <img src="Assets/Images/seasonal-img-1.svg" class="img-fluid me-auto ms-md-auto" alt="Images">
                     </div>
                     <div class="col-lg-6 col-12 cover-desc-seasonal d-flex flex-column justify-content-center">
-                        <h2>Es Kopi Susu Zero Sugar</h2>
-                        <p>Sensasi manis tanpa tambahan gula. Tambahkan beberapa tetes One Cal ke es kopi susu favorit Anda untuk minuman kafein yang menyegarkan di pagi atau sore hari. Praktis dan bebas kalori berlebih!</p>
+                        <h2 class="id">Es Kopi Susu Zero Sugar</h2>
+                        <h2 class="en">Zero Sugar Iced Milk Coffee</h2>
+                        <p class="id">Sensasi manis tanpa tambahan gula. Tambahkan beberapa tetes One Cal ke es kopi susu favorit Anda untuk minuman kafein yang menyegarkan di pagi atau sore hari. Praktis dan bebas kalori berlebih!</p>
+                        <p class="en">Sweet sensation without added sugar. Just a few drops of One Cal in your favorite iced milk coffee for a refreshing caffeine boost—morning or afternoon. It’s practical and free from extra calories!</p>
                     </div>
                     <div class="col-lg-6 col-12 cover-desc-seasonal d-flex flex-column justify-content-center">
-                        <h2>Infused Water Detoks Alami</h2>
-                        <p>Kombinasikan buah-buahan segar (lemon, mentimun, strawberry) dengan air dingin dan One Cal untuk infused water yang lezat dan menyegarkan. Sempurna untuk menjaga hidrasi dan detoks tubuh Anda.</p>
+                        <h2 class="id">Infused Water Detoks Alami</h2>
+                        <h2 class="en">Fresh Infused Water for Natural Detox</h2>
+                        <p class="id">Kombinasikan buah-buahan segar (lemon, mentimun, strawberry) dengan air dingin dan One Cal untuk infused water yang lezat dan menyegarkan. Sempurna untuk menjaga hidrasi dan detoks tubuh Anda.</p>
+                        <p class="en">Combine fresh fruits (lemon, cucumber, and strawberries) with cold water and One Cal for a delicious and refreshing infused water. Perfect for staying hydrated and naturally detoxing your body.</p>
                     </div>
                     <div class="col-lg-6 col-12 product-seasonal d-flex">
                         <img src="Assets/Images/seasonal-img-2.svg" class="img-fluid ms-auto me-md-auto" alt="Images">
@@ -96,25 +102,32 @@
                         <img src="Assets/Images/seasonal-img-3.svg" class="img-fluid me-auto ms-md-auto" alt="Images">
                     </div>
                     <div class="col-lg-6 col-12 cover-desc-seasonal d-flex flex-column justify-content-center">
-                        <h2>Teh Herbal Hangat Kaya Manfaat</h2>
-                        <p>Saat cuaca kurang bersahabat, nikmati secangkir teh herbal hangat (jahe, sereh, kunyit) yang diberi sentuhan manis One Cal. Menghangatkan dan meningkatkan imunitas tanpa khawatir gula berlebih.</p>
+                        <h2 class="id">Teh Herbal Hangat Kaya Manfaat</h2>
+                        <h2 class="en">Healthy Warm Herbal Tea</h2>
+                        <p class="id">Saat cuaca kurang bersahabat, nikmati secangkir teh herbal hangat (jahe, sereh, kunyit) yang diberi sentuhan manis One Cal. Menghangatkan dan meningkatkan imunitas tanpa khawatir gula berlebih.</p>
+                        <p class="en">When the weather turns chilly, enjoy a cup of warm herbal tea (ginger, lemongrass, turmeric) sweetened with a touch of One Cal. It warms you up and boosts your immunity—without the worry of excess sugar.</p>
                     </div>
                     <div class="col-lg-6 col-12 cover-desc-seasonal d-flex flex-column justify-content-center">
-                        <h2>Smoothie Buah Tropis Rendah Kalori</h2>
-                        <p>Blender pisang, mangga, atau buah naga dengan sedikit air/susu rendah lemak dan One Cal. Jadikan sarapan atau camilan sehat yang kaya nutrisi dan rendah kalori.</p>
+                        <h2 class="id">Smoothie Buah Tropis Rendah Kalori</h2>
+                        <h2 class="en">Low-Calorie Tropical Fruit Smoothie</h2>
+                        <p class="id">Blender pisang, mangga, atau buah naga dengan sedikit air/susu rendah lemak dan One Cal. Jadikan sarapan atau camilan sehat yang kaya nutrisi dan rendah kalori.</p>
+                        <p class="en">Blend your favorite tropical fruits like banana, mango, or dragon fruit with a splash of water or low-fat milk and a touch of One Cal. Perfect as a nutritious breakfast or a healthy snack to keep you energized throughout the day—packed with flavor, low in calories.</p>
                     </div>
                     <div class="col-lg-6 col-12 product-seasonal d-flex">
                         <img src="Assets/Images/seasonal-img-4.svg" class="img-fluid ms-auto me-md-auto" alt="Images">
                     </div>
                 </div>
                 <div class="last-text-seasonal">
-                    <p>Jangan lewatkan kesempatan untuk menciptakan momen manis yang lebih sehat dan bermakna! Kunjungi halaman resep musiman kami sekarang dan temukan berbagai ide lezat yang dipadukan sempurna dengan kebaikan One Cal.</p>
+                    <p class="id">Jangan lewatkan kesempatan untuk menciptakan momen manis yang lebih sehat dan bermakna! Kunjungi halaman resep musiman kami sekarang dan temukan berbagai ide lezat yang dipadukan sempurna dengan kebaikan One Cal.</p>
+                    <p class="en">Make every moment sweeter and healthier! Check out our seasonal recipes now and unlock delicious ideas made better with One Cal. Don’t wait—your next favorite treat is just a click away!</p>
                 </div>
             </div>
 
             <div class="cover-two-btn">
-                <button class="btn-well-jelajah rounded-pill">Jelajahi Produk</button>
-                <button class="btn-well-video rounded-pill">Tonton Video Kami</button>
+                <button class="btn-well-jelajah rounded-pill id">Jelajahi Produk</button>
+                <button class="btn-well-jelajah rounded-pill en">Explore Products</button>
+                <button class="btn-well-video rounded-pill id">Tonton Video Kami</button>
+                <button class="btn-well-video rounded-pill en">Watch Our Video</button>
             </div>
         </div>
         <footer>
@@ -160,5 +173,13 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
     <script src="Assets/Js/search.js"></script>
+    <script src="Assets/Js/switchLang.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            let currentLanguage = localStorage.getItem('language') || 'id';
+            switchLanguage(currentLanguage);
+        });
+
+    </script>
 </body>
 </html>

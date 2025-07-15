@@ -16,7 +16,7 @@
     <div class="wrapper">
         <nav class="navbar navbar-dark navbar-expand-md">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img class="img-fluid logo" src="Assets/Images/logo-white.svg" alt="Logo"></a>
+                <a class="navbar-brand" href="index.html"><img class="img-fluid logo" src="Assets/Images/logo-white.svg" alt="Logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -49,8 +49,8 @@
                                 Bahasa <i class="bi bi-chevron-down"></i>
                             </a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
-                                <li><a class="dropdown-item" href="#"><img class="flag" src="Assets/Images/id.png" alt=""> Bahasa - (id) <img class="check-bahasa my-auto" src="Assets/Images/check.svg" alt=""></a></li>
-                                <li><a class="dropdown-item" href="#"><img class="flag" src="Assets/Images/us.png" alt=""> English - (us)</a></li>
+                                <li><a class="dropdown-item" href="#" id="setIndonesian"><img class="flag" src="Assets/Images/id.png" alt=""> Bahasa - (id) <img class="check-bahasa my-auto" src="Assets/Images/check.svg" alt=""></a></li>
+                                <li><a class="dropdown-item" href="#" id="setEnglish"><img class="flag" src="Assets/Images/us.png" alt=""> English - (us) <img class="check-bahasa my-auto d-none" src="Assets/Images/check.svg" alt=""></a></li>
                             </ul>
                         </div>
 
@@ -66,7 +66,8 @@
         <div class="more-hero position-relative">
             <img class="bg-more img-fluid" src="Assets/Images/more-bg-hero.svg" alt="Images">
             <div class="cover-text-more">
-                <h1 class="text-more">Blog & Artikel</h1>
+                <h1 class="text-more id">Blog & Artikel</h1>
+                <h1 class="text-more en">Blog & Article</h1>
                 <div class="garis-more-title"></div>
             </div>
         </div>
@@ -156,8 +157,10 @@
             </div>
 
             <div class="cover-two-btn">
-                <button class="btn-well-jelajah rounded-pill">Jelajahi Produk</button>
-                <button class="btn-well-video rounded-pill">Tonton Video Kami</button>
+                <button class="btn-well-jelajah rounded-pill id">Jelajahi Produk</button>
+                <button class="btn-well-jelajah rounded-pill en">Explore Products</button>
+                <button class="btn-well-video rounded-pill id">Tonton Video Kami</button>
+                <button class="btn-well-video rounded-pill en">Watch Our Video</button>
             </div>
         </div>
 
@@ -204,5 +207,13 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
     <script src="Assets/Js/search.js"></script>
+    <script src="Assets/Js/switchLang.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            let currentLanguage = localStorage.getItem('language') || 'id';
+            switchLanguage(currentLanguage);
+        });
+
+    </script>
 </body>
 </html>

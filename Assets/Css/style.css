@@ -211,7 +211,7 @@ body{
 /* Section 3 */
 
 .title-sec-3{
-    width: 950px;
+    width: 1550px;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -423,9 +423,9 @@ body{
 
 /* Section 8 */
 
-.section-8{
+/* .section-8{
     
-}
+} */
 
 .desc-8{
     text-align: center;
@@ -533,6 +533,16 @@ footer a:hover{
     font-size: 100px;
     font-weight: 400;
     font-family: 'Outfit', sans-serif;
+}
+
+.garis-wellcome{
+    position: absolute;
+    z-index: 2;
+    top: 65%;
+    left: 27%;
+    width: 200px;
+    border-bottom: 2px solid #FFFFFF;
+    margin-left: auto;
 }
 
 .section-1-wellcome{

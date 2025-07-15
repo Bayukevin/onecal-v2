@@ -16,7 +16,7 @@
     <div class="wrapper">
         <nav class="navbar navbar-dark navbar-expand-md">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img class="img-fluid logo" src="Assets/Images/logo-white.svg" alt="Logo"></a>
+                <a class="navbar-brand" href="index.html"><img class="img-fluid logo" src="Assets/Images/logo-white.svg" alt="Logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -49,8 +49,8 @@
                                 Bahasa <i class="bi bi-chevron-down"></i>
                             </a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
-                                <li><a class="dropdown-item" href="#"><img class="flag" src="Assets/Images/id.png" alt=""> Bahasa - (id) <img class="check-bahasa my-auto" src="Assets/Images/check.svg" alt=""></a></li>
-                                <li><a class="dropdown-item" href="#"><img class="flag" src="Assets/Images/us.png" alt=""> English - (us)</a></li>
+                                <li><a class="dropdown-item" href="#" id="setIndonesian"><img class="flag" src="Assets/Images/id.png" alt=""> Bahasa - (id) <img class="check-bahasa my-auto" src="Assets/Images/check.svg" alt=""></a></li>
+                                <li><a class="dropdown-item" href="#" id="setEnglish"><img class="flag" src="Assets/Images/us.png" alt=""> English - (us) <img class="check-bahasa my-auto d-none" src="Assets/Images/check.svg" alt=""></a></li>
                             </ul>
                         </div>
 
@@ -65,13 +65,15 @@
 
         <div class="wellcome-hero position-relative">
             <img class="bg-wellcome img-fluid" src="Assets/Images/hero-wellcome.svg" alt="Images">
-            <h1 class="text-wellcome">WELCOME</h1>
+            <h1 class="text-wellcome">Welcome</h1>
+            <div class="garis-wellcome"></div>
         </div>
 
         <div class="section-1-wellcome">
             <div class="container">
                 <div>
-                    <p>Di tengah gaya hidup modern yang serba cepat, menjaga kesehatan bisa terasa menantang, terutama saat godaan rasa manis sulit dihindari. One Cal hadir sebagai solusi cerdas dan sehat, menawarkan pemanis dari tebu asli yang memberikan rasa manis memuaskan tanpa lonjakan kadar dalam aliran darah. Cocok untuk penderita diabetes, pelaku diet, maupun siapa pun yang peduli kesehatan, One Cal memungkinkan Anda menikmati minuman dan makanan manis tanpa rasa bersalah. Dengan kalori yang jauh lebih rendah, Anda bisa tetap menikmati kopi, teh, atau camilan favorit secara lebih bijak. Tonton video singkat kami untuk mengetahui lebih dalam tentang manfaat One Cal, simak kisah nyata para pengguna yang telah merasakan perubahan positif dalam hidup mereka.</p>
+                    <p class="id">Di tengah gaya hidup modern yang serba cepat, menjaga kesehatan bisa terasa menantang, terutama saat godaan rasa manis sulit dihindari. One Cal hadir sebagai solusi cerdas dan sehat, menawarkan pemanis dari tebu asli yang memberikan rasa manis memuaskan tanpa lonjakan kadar dalam aliran darah. Cocok untuk penderita diabetes, pelaku diet, maupun siapa pun yang peduli kesehatan, One Cal memungkinkan Anda menikmati minuman dan makanan manis tanpa rasa bersalah. Dengan kalori yang jauh lebih rendah, Anda bisa tetap menikmati kopi, teh, atau camilan favorit secara lebih bijak. Tonton video singkat kami untuk mengetahui lebih dalam tentang manfaat One Cal, simak kisah nyata para pengguna yang telah merasakan perubahan positif dalam hidup mereka.</p>
+                    <p class="en">In today's fast-paced lifestyle, maintaining health can be challenging, especially when sweet cravings are hard to resist. One Cal offers a smart and healthy solution, offering a sweetener made from real sugar cane that delivers a satisfying sweet taste without a spike in blood sugar levels. Suitable for people with diabetes, dieters, and anyone concerned about their health, One Cal allows you to enjoy sweet drinks and foods guilt-free. With significantly lower calories, you can still enjoy your favorite coffee, tea, or snacks more sensibly. Watch our short video to learn more about the benefits of One Cal and hear real-life stories from users who have experienced positive changes in their lives.</p>
                 </div>
                 <div class="row cover-box">
                     <div class="col-sm-4">
@@ -86,8 +88,10 @@
                 </div>
             </div>
             <div class="cover-two-btn">
-                <button class="btn-well-jelajah rounded-pill">Jelajahi Produk</button>
-                <button class="btn-well-video rounded-pill">Tonton Video Kami</button>
+                <button class="btn-well-jelajah rounded-pill id">Jelajahi Produk</button>
+                <button class="btn-well-jelajah rounded-pill en">Explore Products</button>
+                <button class="btn-well-video rounded-pill id">Tonton Video Kami</button>
+                <button class="btn-well-video rounded-pill en">Watch Our Video</button>
             </div>
         </div>
 
@@ -135,5 +139,13 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
     <script src="Assets/Js/search.js"></script>
+    <script src="Assets/Js/switchLang.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            let currentLanguage = localStorage.getItem('language') || 'id';
+            switchLanguage(currentLanguage);
+        });
+
+    </script>
 </body>
 </html>
