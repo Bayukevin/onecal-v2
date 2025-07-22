@@ -93,8 +93,8 @@
                     <div class="col-md-6 text">
                         <h2 class="id">Anjuran Pakai</h2>
                         <h2 class="en">How to Use</h2>
-                        <p>Teteskan <span>2-5 tetes</span> OneCal ke dalam minuman atau makanan favorit Anda, atau sesuaikan dengan tingkat kemanisan yang diinginkan. <span>Cocok untuk</span> teh, kopi, jus, smoothies, bahkan topping makanan! (maksimal 4 tetes per 10 kg berat badan per hari)</p>
-                        <p>Add <span>2-5</span> drops of One Cal to your favorite drinks or foods, or adjust according to your desired level of sweetness. <span>Perfect for</span> tea, coffee, juice, smoothies, and even as a topping! (Maximum 4 drops per 10 kg of body weight per day)</p>
+                        <p class="id">Teteskan <span>2-5 tetes</span> OneCal ke dalam minuman atau makanan favorit Anda, atau sesuaikan dengan tingkat kemanisan yang diinginkan. <span>Cocok untuk</span> teh, kopi, jus, smoothies, bahkan topping makanan! (maksimal 4 tetes per 10 kg berat badan per hari)</p>
+                        <p class="en">Add <span>2-5</span> drops of One Cal to your favorite drinks or foods, or adjust according to your desired level of sweetness. <span>Perfect for</span> tea, coffee, juice, smoothies, and even as a topping! (Maximum 4 drops per 10 kg of body weight per day)</p>
                     </div>
                 </div>
             </div>
@@ -160,5 +160,12 @@
         });
 
     </script>
+    <script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.init({
+        chatflowid: "1229ac54-2989-41ad-9581-0c85fbfa07d0",
+        apiHost: "http://localhost:3000",
+    })
+</script>
 </body>
 </html>
