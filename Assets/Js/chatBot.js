@@ -26,17 +26,17 @@ Chatbot.init({
         },
         tooltip: {
             showTooltip: true,
-            tooltipMessage: 'Hi There 👋!',
-            tooltipBackgroundColor: 'black',
+            tooltipMessage: 'Hi Kami Disini 👋!',
+            tooltipBackgroundColor: '#3A795E',
             tooltipTextColor: 'white',
             tooltipFontSize: 16
         },
         disclaimer: {
             title: 'Disclaimer',
-            message: "By using this chatbot, you agree to the <a target=\"_blank\" href=\"https://flowiseai.com/terms\">Terms & Condition</a>",
+            message: "Dengan menggunakan chatbot ini, Anda menyetujui <a target=\"_blank\" href=\"https://flowiseai.com/terms\">Syarat & Ketentuan</a>",
             textColor: 'black',
             buttonColor: '#3A795E',
-            buttonText: 'Start Chatting',
+            buttonText: 'Mulai Mengobrol',
             buttonTextColor: 'white',
             blurredBackgroundColor: 'rgba(0, 0, 0, 0.4)',
             backgroundColor: 'white'
