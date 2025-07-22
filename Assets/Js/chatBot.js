@@ -54,8 +54,8 @@ Chatbot.init({
             width: 400,
             fontSize: 16,
             starterPrompts: [
-                "What is a bot?",
-                "Who are you?"
+                "Apa itu onecal?",
+                "Cara penggunaan onecal?"
             ],
             starterPromptFontSize: 15,
             clearChatOnReload: false,
@@ -74,7 +74,7 @@ Chatbot.init({
                 avatarSrc: 'https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/usericon.png'
             },
             textInput: {
-                placeholder: 'Type your question',
+                placeholder: 'Tulis pertanyaan anda di sini...',
                 backgroundColor: '#ffffff',
                 textColor: '#303235',
                 sendButtonColor: '#3A795E',
