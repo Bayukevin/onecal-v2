@@ -16,7 +16,7 @@ Chatbot.init({
             size: 48,
             dragAndDrop: true,
             iconColor: 'white',
-            customIconSrc: 'https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg',
+            customIconSrc: 'https://onecal-v2.netlify.app/Assets/Images/chat.png',
             autoWindowOpen: {
                 autoOpen: true,
                 openDelay: 2,
@@ -44,9 +44,9 @@ Chatbot.init({
         chatWindow: {
             showTitle: true,
             showAgentMessages: true,
-            title: 'Flowise Bot',
-            titleAvatarSrc: 'https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg',
-            welcomeMessage: 'Hello! This is custom welcome message',
+            title: 'Onecal Bot',
+            titleAvatarSrc: 'https://onecal-v2.netlify.app/Assets/Images/chat.png',
+            welcomeMessage: 'Halo! Tanyakan apapun tentang Onecal',
             errorMessage: 'This is a custom error message',
             backgroundColor: '#ffffff',
             backgroundImage: 'enter image path or link',
@@ -65,7 +65,7 @@ Chatbot.init({
                 backgroundColor: '#f7f8ff',
                 textColor: '#303235',
                 showAvatar: true,
-                avatarSrc: 'https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/parroticon.png'
+                avatarSrc: 'https://onecal-v2.netlify.app/Assets/Images/img-2-learn-more.svg'
             },
             userMessage: {
                 backgroundColor: '#3A795E',
