@@ -1,7 +1,8 @@
 import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
 Chatbot.init({
     chatflowid: "1229ac54-2989-41ad-9581-0c85fbfa07d0",
-    apiHost: "http://localhost:3000",
+    // apiHost: "http://localhost:3000",
+    apiHost: "https://cloud.flowiseai.com",
     chatflowConfig: {
         /* Chatflow Config */
     },
@@ -18,7 +19,7 @@ Chatbot.init({
             iconColor: 'white',
             customIconSrc: 'https://onecal-v2.netlify.app/Assets/Images/chat.png',
             autoWindowOpen: {
-                autoOpen: true,
+                autoOpen: false,
                 openDelay: 2,
                 autoOpenOnMobile: false
             }
