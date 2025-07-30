@@ -535,6 +535,17 @@ footer a:hover{
     font-family: 'Outfit', sans-serif;
 }
 
+.text-reseller{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 12%;
+    color: #000000;
+    font-size: 100px;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+}
+
 .garis-wellcome{
     position: absolute;
     z-index: 2;
@@ -542,6 +553,16 @@ footer a:hover{
     left: 27%;
     width: 200px;
     border-bottom: 2px solid #FFFFFF;
+    margin-left: auto;
+}
+
+.garis-reseller{
+    position: absolute;
+    z-index: 2;
+    top: 65%;
+    left: 27%;
+    width: 200px;
+    border-bottom: 2px solid #000000;
     margin-left: auto;
 }
 
@@ -870,6 +891,52 @@ footer a:hover{
     justify-content: end;
 }
 
+.section-1-reseller{
+    padding: 100px 0 0 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+.cover-reseller h1{
+    color: #49534F;
+    font-family: 'Outfit', sans-serif;
+}
+
+.stokis, .afiliasi{
+    color: #49534F;
+    margin-top: 35px;
+}
+
+.stokis b, .afiliasi b{
+    font-size: 25px;
+}
+
+.teks-reseller{
+    font-size: 20px;
+}
+
+.stokis ul li, .afiliasi ul li{
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+}
+
+.btn-reseller{
+    background-color: #3A795E;
+    color: #FFFFFF;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 25px;
+    padding: 7px 15px;
+    font-size: 20px;
+    font-weight: 300;
+    border: none;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.btn-reseller:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
 /* Xl */
 @media screen and (min-width: 1200px) and (max-width: 1919px){
     
@@ -896,6 +963,16 @@ footer a:hover{
         left: 27%;
         width: 200px;
         border-bottom: 2px solid #FFFFFF;
+        margin-left: auto;
+    }
+
+    .garis-reseller{
+        position: absolute;
+        z-index: 2;
+        top: 70%;
+        left: 27%;
+        width: 200px;
+        border-bottom: 2px solid #000000;
         margin-left: auto;
     }
 }
@@ -974,6 +1051,16 @@ footer a:hover{
         left: 32%;
         width: 200px;
         border-bottom: 2px solid #FFFFFF;
+        margin-left: auto;
+    }
+
+    .garis-reseller{
+        position: absolute;
+        z-index: 2;
+        top: 75%;
+        left: 32%;
+        width: 200px;
+        border-bottom: 2px solid #000000;
         margin-left: auto;
     }
 }
@@ -1116,6 +1203,16 @@ footer a:hover{
         border-bottom: 2px solid #FFFFFF;
         margin-left: auto;
     }
+
+    .garis-reseller{
+        position: absolute;
+        z-index: 2;
+        top: 80%;
+        left: 38%;
+        width: 200px;
+        border-bottom: 2px solid #000000;
+        margin-left: auto;
+    }
 }
 
 /* SM */
@@ -1212,6 +1309,10 @@ footer a:hover{
         font-size: 60px;
     }
 
+    .text-reseller{
+        font-size: 60px;
+    }
+
     .section-1-wellcome p{
         font-size: 20px;
     }
@@ -1299,6 +1400,20 @@ footer a:hover{
         border-bottom: 2px solid #FFFFFF;
         margin-left: auto;
     }
+
+    .garis-reseller{
+        position: absolute;
+        z-index: 2;
+        top: 75%;
+        left: 38%;
+        width: 100px;
+        border-bottom: 2px solid #000000;
+        margin-left: auto;
+    }
+
+    .teks-reseller, .stokis ul li, .afiliasi ul li{
+        font-size: 18px;
+    }
 }
 
 /* XS */
@@ -1332,6 +1447,11 @@ footer a:hover{
     .text-wellcome{
         font-size: 40px;
     }
+
+    .text-reseller{
+        font-size: 40px;
+    }
+
     .section-1-wellcome{
         padding: 20px 0 0 0;
     }
@@ -1368,6 +1488,10 @@ footer a:hover{
     }
 
     .garis-wellcome{
+        display: none;
+    }
+
+    .garis-reseller{
         display: none;
     }
 }

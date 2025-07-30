@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="Assets/Css/style.css">
+    <title>Welcome | OneCal</title>
+
+    <link rel="icon" href="Assets/Images/favicon.ico" type="image/x-icon">
+    <meta name="description" content="Onecal: Solusi manis tanpa rasa bersalah.">
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar navbar-dark navbar-expand-md">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img class="img-fluid logo" src="Assets/Images/logo-white.svg" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="wellcome.html">Welcome</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="seasonal-favorites.html">Seasonal Favorites</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="more.html">More</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <div class="text-white">
+                            <i class="bi bi-search" id="searchIcon"></i>
+                        </div>
+                        <div id="searchInput" style="display: none;">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                        </div>
+                        <div class="bahasa mx-5 dropdown">
+                            <a class="text-decoration-none text-white" href="#" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                Bahasa <i class="bi bi-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                                <li><a class="dropdown-item" href="#" id="setIndonesian"><img class="flag" src="Assets/Images/id.png" alt=""> Bahasa - (id) <img class="check-bahasa my-auto" src="Assets/Images/check.svg" alt=""></a></li>
+                                <li><a class="dropdown-item" href="#" id="setEnglish"><img class="flag" src="Assets/Images/us.png" alt=""> English - (us) <img class="check-bahasa my-auto d-none" src="Assets/Images/check.svg" alt=""></a></li>
+                            </ul>
+                        </div>
+
+                        <a href="#" class="keranjang text-decoration-none position-relative me-2">
+                            <img src="Assets/Images/cart-icon.svg" alt="Keranjang">
+                            <span class="badge position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" id="cartQuantity">3</span>
+                        </a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <div class="wellcome-hero position-relative">
+            <img class="bg-wellcome img-fluid" src="Assets/Images/hero-reseller.svg" alt="Images">
+            <h1 class="text-reseller">Reseller</h1>
+            <div class="garis-reseller"></div>
+        </div>
+
+        <div class="section-1-reseller">
+            <div class="container">
+                <div class="cover-reseller">
+                    <h1>Bergabung Bersama One Cal!</h1>
+                    <p class="id teks-reseller">Ingin mendapatkan penghasilan tambahan dan menjadi bagian dari tim kami? Kami membuka kesempatan bagi Anda untuk menjadi Afiliasi atau Stokis. Pilih jalur yang paling sesuai dengan ambisi Anda!</p>
+                    <div class="stokis">
+                        <p><b>Program Stokis</b></p>
+                        <p class="teks-reseller">Bagi Anda yang serius membangun bisnis dan ingin memiliki stok produk sendiri.</p>
+                        <ul>
+                            <li>Harga Spesial: Dapatkan harga grosir yang lebih rendah untuk keuntungan maksimal.</li>
+                            <li>Potensi Keuntungan Besar: Jual langsung ke pelanggan Anda dengan margin keuntungan yang lebih tinggi.</li>
+                            <li>Jangkauan Luas: Layani pelanggan di area Anda secara langsung.</li>
+                            <li>Prioritas Dukungan: Dapatkan perhatian dan dukungan khusus dari tim kami.</li>
+                        </ul>
+                        <a href="#">
+                            <button class="btn-reseller">Daftar Sekarang</button>
+                        </a>
+                    </div>
+
+                    <div class="afiliasi">
+                        <p><b>Program Afiliasi</b></p>
+                        <p class="teks-reseller">Cocok untuk Anda yang ingin berpenghasilan tanpa perlu menyimpan stok produk.</p>
+                        <ul>
+                            <li>Komisi Menarik: Dapatkan persentase dari setiap penjualan yang Anda hasilkan melalui link unik Anda.</li>
+                            <li>Tanpa Modal Stok: Anda tidak perlu membeli atau menyimpan barang.</li>
+                            <li>Pemasaran Mudah: Cukup bagikan link dan konten kami di media sosial atau platform Anda.</li>
+                            <li>Dukungan Penuh: Akses ke materi promosi dan tim dukungan kami.</li>
+                        </ul>
+                        <a href="#">
+                            <button class="btn-reseller">Daftar Sekarang</button>
+                        </a>
+                    </div>
+                    <p class="teks-reseller py-5">Siap untuk memulai perjalanan bisnis Anda bersama kami? Pilih program yang Anda inginkan dan mari bertumbuh bersama!</p>
+                </div>
+                <!-- <div class="row cover-box">
+                    <div class="col-sm-4">
+                        <img class="img-fluid" src="Assets/Images/box-well-1.svg" alt="images">
+                    </div>
+                    <div class="col-sm-4">
+                        <img class="img-fluid" src="Assets/Images/box-well-2.svg" alt="images">
+                    </div>
+                    <div class="col-sm-4">
+                        <img class="img-fluid" src="Assets/Images/box-well-3.svg" alt="images">
+                    </div>
+                </div> -->
+            </div>
+            <div class="cover-two-btn">
+                <button class="btn-well-jelajah rounded-pill id">Jelajahi Produk</button>
+                <button class="btn-well-jelajah rounded-pill en">Explore Products</button>
+                <button class="btn-well-video rounded-pill id">Tonton Video Kami</button>
+                <button class="btn-well-video rounded-pill en">Watch Our Video</button>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="row text-center text-md-start">
+                    <div class="col-xl-2 col-12 mb-3 mb-xl-0 d-flex align-items-center justify-content-center justify-content-xl-start">
+                        <img src="Assets/Images/logo-white.svg" alt="Logo">
+                    </div>
+                    <div class="col-xl-2 col-md-3 col-sm-4 text-center text-xl-start">
+                        <li>
+                            <a href="#">About</a>
+                            <a href="#">Products</a>
+                            <a href="#">Highlights</a>
+                        </li>
+                    </div>
+                    <div class="col-xl-2 col-md-3 col-sm-4 text-center text-xl-start">
+                        <li>
+                            <a href="#">Where to Buy</a>
+                            <a href="#">FAQ</a>
+                            <a href="#">Career</a>
+                        </li>
+                    </div>
+                    <div class="col-xl-2 col-md-3 col-sm-4 text-center text-xl-start">
+                        <li>
+                            <a href="#">Contact</a>
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Term & Conditions</a>
+                        </li>
+                    </div>
+                    <div class="col-xl-4 col-md-3 input-email">
+                        <div class="mt-auto">
+                            <p class="text-start text-white">Sign Up to Our E-mail Newsletter</p>
+                            <div>
+                                <input type="email" placeholder="Your E-mail Address">
+                                <button class="mt-2 mt-xl-0">Sign Up</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="Assets/Js/search.js"></script>
+    <script src="Assets/Js/switchLang.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            let currentLanguage = localStorage.getItem('language') || 'id';
+            switchLanguage(currentLanguage);
+        });
+
+    </script>
+        <script src="Assets/Js/chatBot.js"></script>
+
+</body>
+</html>
