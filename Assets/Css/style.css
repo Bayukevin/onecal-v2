@@ -695,7 +695,18 @@ footer a:hover{
     left: 40%;
 }
 
-.cover-text-hero-seasonal h1{
+/* .cover-text-hero-seasonal h1{
+    color: #000000;
+    font-size: 100px;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+} */
+
+.text-seasonal{
+    position: absolute;
+    z-index: 2;
+    top: 30%;
+    left: 40%;
     color: #000000;
     font-size: 100px;
     font-weight: 400;
@@ -705,9 +716,9 @@ footer a:hover{
 .garis-seasonal-hero{
     width: 250px;
     border-bottom: 3px solid #000000;
-    margin-left: auto;
-    right: -80px;
-    position: relative;
+    top: 65%;
+    left: 55%;
+    position: absolute;
 }
 
 .section-1-seasonal{
@@ -952,12 +963,23 @@ footer a:hover{
     }
 
     /* Seasonal Page */
-    .cover-text-hero-seasonal h1{
-        font-size: 70px;
+    .text-seasonal{
+    position: absolute;
+    z-index: 2;
+    top: 30%;
+    left: 40%;
+    color: #000000;
+    font-size: 70px;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
     }
-    .cover-text-hero-seasonal{
-        top: 25%;
-        left: 40%;
+
+    .garis-seasonal-hero{
+        width: 200px;
+        border-bottom: 3px solid #000000;
+        top: 60%;
+        left: 50%;
+        position: absolute;
     }
     .images-test img{
         width: 600px;
@@ -1017,12 +1039,23 @@ footer a:hover{
     }
 
     /* Seasonal Page */
-    .cover-text-hero-seasonal{
-        top: 25%;
+    .text-seasonal{
+        position: absolute;
+        z-index: 2;
+        top: 30%;
         left: 40%;
-    }
-    .cover-text-hero-seasonal h1{
+        color: #000000;
         font-size: 70px;
+        font-weight: 400;
+        font-family: 'Outfit', sans-serif;
+    }
+
+    .garis-seasonal-hero{
+        width: 200px;
+        border-bottom: 3px solid #000000;
+        top: 75%;
+        left: 50%;
+        position: absolute;
     }
     .cover-seasonal-text h1{
         color: #49534F;
@@ -1161,12 +1194,23 @@ footer a:hover{
     }
 
     /* Seasonal Page */
-    .cover-text-hero-seasonal{
-        top: 22%;
+    .text-seasonal{
+        position: absolute;
+        z-index: 2;
+        top: 30%;
         left: 40%;
-    }
-    .cover-text-hero-seasonal h1{
+        color: #000000;
         font-size: 70px;
+        font-weight: 400;
+        font-family: 'Outfit', sans-serif;
+    }
+
+    .garis-seasonal-hero{
+        width: 170px;
+        border-bottom: 3px solid #000000;
+        top: 85%;
+        left: 65%;
+        position: absolute;
     }
     .cover-seasonal-text h1{
         font-size: 45px;
@@ -1325,15 +1369,23 @@ footer a:hover{
     }
 
     /* Seasonal Page */
-    .cover-text-hero-seasonal{
-        top: 15%;
-        left: 40%;
-    }
-    .cover-text-hero-seasonal h1{
+    .text-seasonal{
+        position: absolute;
+        z-index: 2;
+        top: 30%;
+        left: 30%;
+        color: #000000;
         font-size: 60px;
+        font-weight: 400;
+        font-family: 'Outfit', sans-serif;
     }
+
     .garis-seasonal-hero{
-        width: 100px;
+        width: 170px;
+        border-bottom: 3px solid #000000;
+        top: 85%;
+        left: 55%;
+        position: absolute;
     }
     .cover-seasonal-text h1{
         font-size: 45px;
@@ -1467,12 +1519,23 @@ footer a:hover{
     }
 
     /* Seasonal Page */
-    .cover-text-hero-seasonal{
-        top: 10%;
+    .text-seasonal{
+        position: absolute;
+        z-index: 2;
+        top: 30%;
         left: 40%;
-    }
-    .cover-text-hero-seasonal h1{
+        color: #000000;
         font-size: 25px;
+        font-weight: 400;
+        font-family: 'Outfit', sans-serif;
+    }
+
+    .garis-seasonal-hero{
+        width: 170px;
+        border-bottom: 3px solid #000000;
+        top: 85%;
+        left: 65%;
+        position: absolute;
     }
     .garis-seasonal-hero{
         display: none;
