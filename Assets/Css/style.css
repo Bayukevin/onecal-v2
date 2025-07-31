@@ -322,6 +322,13 @@ body{
     margin-top: 100px;
 }
 
+.desc-special-text{
+    font-size: 23px !important;
+    font-weight: 300;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 50px;
+}
+
 .cover-btn-claim{
     margin-top: 100px;
 }
